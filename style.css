@@ -1,19 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
 
 
-font-family: 'Poppins', sans-serif;
+
 
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .mainbackground{
   width: 100%;
   height: 100vh;
-  background-size: cover;
+  background-image: url("background.gif");
+  background-size: contain;
   position: relative;
+  opacity: 60%;
+}
+
+.sidebar{
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image:linear-gradient(rgba(210,200,210,0.75), rgba(7,0,60,0.85));
+  padding: 20px 60px;
+  color: white;
+}
+
+.youtube{
+  border-radius: 50%;
+  background-size: contain;
+  position: relative;
+}
+
+
+.secondary{
+  background-image: url("lol.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.textbox{
+  display: flex;
+  justify-content: center;
+  align-text: center;
+  position: relative;
+  padding: 70px 60px;
+  color: mediumpurple;
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
 }
 
